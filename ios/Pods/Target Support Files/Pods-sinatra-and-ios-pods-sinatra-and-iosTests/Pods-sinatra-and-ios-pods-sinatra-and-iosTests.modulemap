@@ -1,0 +1,6 @@
+framework module Pods_sinatra_and_ios_pods_sinatra_and_iosTests {
+  umbrella header "Pods-sinatra-and-ios-pods-sinatra-and-iosTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

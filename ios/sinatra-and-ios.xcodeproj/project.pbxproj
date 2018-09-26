@@ -1,0 +1,800 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		496BCA39215B115D005C9790 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496BCA38215B115D005C9790 /* AppDelegate.swift */; };
+		496BCA3B215B115D005C9790 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496BCA3A215B115D005C9790 /* ViewController.swift */; };
+		496BCA3E215B115D005C9790 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 496BCA3C215B115D005C9790 /* Main.storyboard */; };
+		496BCA40215B115E005C9790 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 496BCA3F215B115E005C9790 /* Assets.xcassets */; };
+		496BCA43215B115E005C9790 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 496BCA41215B115E005C9790 /* LaunchScreen.storyboard */; };
+		496BCA4E215B115E005C9790 /* sinatra_and_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496BCA4D215B115E005C9790 /* sinatra_and_iosTests.swift */; };
+		496BCA59215B115E005C9790 /* sinatra_and_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496BCA58215B115E005C9790 /* sinatra_and_iosUITests.swift */; };
+		496BCA67215B1850005C9790 /* Sushi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496BCA66215B1850005C9790 /* Sushi.swift */; };
+		7A1ED17D2B17FB935864C48C /* Pods_sinatra_and_ios_pods_sinatra_and_iosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F91F7CB718C307C799053984 /* Pods_sinatra_and_ios_pods_sinatra_and_iosUITests.framework */; };
+		9649E6EF874682F85FF80A13 /* Pods_sinatra_and_ios_pods_sinatra_and_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD6DF6E007DBBEE713F59F4 /* Pods_sinatra_and_ios_pods_sinatra_and_ios.framework */; };
+		D264E3B551B43667BF73F6E4 /* Pods_sinatra_and_ios_pods_sinatra_and_iosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7042D13D12E4A8C01BD7C964 /* Pods_sinatra_and_ios_pods_sinatra_and_iosTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		496BCA4A215B115E005C9790 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 496BCA2D215B115C005C9790 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 496BCA34215B115D005C9790;
+			remoteInfo = "sinatra-and-ios";
+		};
+		496BCA55215B115E005C9790 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 496BCA2D215B115C005C9790 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 496BCA34215B115D005C9790;
+			remoteInfo = "sinatra-and-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D2B388C1128D940B210DA7C /* Pods-sinatra-and-ios-pods-sinatra-and-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sinatra-and-ios-pods-sinatra-and-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sinatra-and-ios-pods-sinatra-and-ios/Pods-sinatra-and-ios-pods-sinatra-and-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		1C02E0CF0BBFD0BB87756F84 /* Pods_sinatra_and_iosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sinatra_and_iosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		361302650ECE91CFAB6EB824 /* Pods-sinatra-and-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sinatra-and-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-sinatra-and-ios/Pods-sinatra-and-ios.release.xcconfig"; sourceTree = "<group>"; };
+		496BCA35215B115D005C9790 /* sinatra-and-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sinatra-and-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		496BCA38215B115D005C9790 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		496BCA3A215B115D005C9790 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		496BCA3D215B115D005C9790 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		496BCA3F215B115E005C9790 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		496BCA42215B115E005C9790 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		496BCA44215B115E005C9790 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		496BCA49215B115E005C9790 /* sinatra-and-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sinatra-and-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		496BCA4D215B115E005C9790 /* sinatra_and_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sinatra_and_iosTests.swift; sourceTree = "<group>"; };
+		496BCA4F215B115E005C9790 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		496BCA54215B115E005C9790 /* sinatra-and-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sinatra-and-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		496BCA58215B115E005C9790 /* sinatra_and_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sinatra_and_iosUITests.swift; sourceTree = "<group>"; };
+		496BCA5A215B115E005C9790 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		496BCA66215B1850005C9790 /* Sushi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sushi.swift; sourceTree = "<group>"; };
+		4FD6DF6E007DBBEE713F59F4 /* Pods_sinatra_and_ios_pods_sinatra_and_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sinatra_and_ios_pods_sinatra_and_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CDAC9BC85EBD03454131AFE /* Pods_sinatra_and_iosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sinatra_and_iosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B50F8064ACD67B4CE830357 /* Pods-sinatra-and-ios-pods-sinatra-and-iosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sinatra-and-ios-pods-sinatra-and-iosTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sinatra-and-ios-pods-sinatra-and-iosTests/Pods-sinatra-and-ios-pods-sinatra-and-iosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7042D13D12E4A8C01BD7C964 /* Pods_sinatra_and_ios_pods_sinatra_and_iosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sinatra_and_ios_pods_sinatra_and_iosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		750A919E2A0B5B79992DC452 /* Pods-sinatra-and-iosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sinatra-and-iosTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-sinatra-and-iosTests/Pods-sinatra-and-iosTests.release.xcconfig"; sourceTree = "<group>"; };
+		81917A8A5CB78EA2065F90F8 /* Pods-sinatra-and-ios-pods-sinatra-and-iosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sinatra-and-ios-pods-sinatra-and-iosUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sinatra-and-ios-pods-sinatra-and-iosUITests/Pods-sinatra-and-ios-pods-sinatra-and-iosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9C84476F9EE1EB76A0120582 /* Pods-sinatra-and-iosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sinatra-and-iosUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-sinatra-and-iosUITests/Pods-sinatra-and-iosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A18B8BF7323FDEE4EC784130 /* Pods-sinatra-and-iosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sinatra-and-iosTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sinatra-and-iosTests/Pods-sinatra-and-iosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BC3BB91A4A8B0187994F5581 /* Pods-sinatra-and-ios-pods-sinatra-and-iosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sinatra-and-ios-pods-sinatra-and-iosTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-sinatra-and-ios-pods-sinatra-and-iosTests/Pods-sinatra-and-ios-pods-sinatra-and-iosTests.release.xcconfig"; sourceTree = "<group>"; };
+		BEADFCCFB01A9879C918FB58 /* Pods-sinatra-and-ios-pods-sinatra-and-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sinatra-and-ios-pods-sinatra-and-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-sinatra-and-ios-pods-sinatra-and-ios/Pods-sinatra-and-ios-pods-sinatra-and-ios.release.xcconfig"; sourceTree = "<group>"; };
+		D0DAC39AF498CFC0BBEBECA8 /* Pods-sinatra-and-iosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sinatra-and-iosUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sinatra-and-iosUITests/Pods-sinatra-and-iosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E980B0DCFFD8DF2C6D36FF7A /* Pods-sinatra-and-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sinatra-and-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sinatra-and-ios/Pods-sinatra-and-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		ED9D8A3D908C76FE3D31125B /* Pods_sinatra_and_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sinatra_and_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EECD9730D792B22A30992C57 /* Pods-sinatra-and-ios-pods-sinatra-and-iosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sinatra-and-ios-pods-sinatra-and-iosUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-sinatra-and-ios-pods-sinatra-and-iosUITests/Pods-sinatra-and-ios-pods-sinatra-and-iosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F91F7CB718C307C799053984 /* Pods_sinatra_and_ios_pods_sinatra_and_iosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sinatra_and_ios_pods_sinatra_and_iosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		496BCA32215B115D005C9790 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9649E6EF874682F85FF80A13 /* Pods_sinatra_and_ios_pods_sinatra_and_ios.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		496BCA46215B115E005C9790 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D264E3B551B43667BF73F6E4 /* Pods_sinatra_and_ios_pods_sinatra_and_iosTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		496BCA51215B115E005C9790 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A1ED17D2B17FB935864C48C /* Pods_sinatra_and_ios_pods_sinatra_and_iosUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F39B3A2DA7BC361963621B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E980B0DCFFD8DF2C6D36FF7A /* Pods-sinatra-and-ios.debug.xcconfig */,
+				361302650ECE91CFAB6EB824 /* Pods-sinatra-and-ios.release.xcconfig */,
+				A18B8BF7323FDEE4EC784130 /* Pods-sinatra-and-iosTests.debug.xcconfig */,
+				750A919E2A0B5B79992DC452 /* Pods-sinatra-and-iosTests.release.xcconfig */,
+				D0DAC39AF498CFC0BBEBECA8 /* Pods-sinatra-and-iosUITests.debug.xcconfig */,
+				9C84476F9EE1EB76A0120582 /* Pods-sinatra-and-iosUITests.release.xcconfig */,
+				0D2B388C1128D940B210DA7C /* Pods-sinatra-and-ios-pods-sinatra-and-ios.debug.xcconfig */,
+				BEADFCCFB01A9879C918FB58 /* Pods-sinatra-and-ios-pods-sinatra-and-ios.release.xcconfig */,
+				6B50F8064ACD67B4CE830357 /* Pods-sinatra-and-ios-pods-sinatra-and-iosTests.debug.xcconfig */,
+				BC3BB91A4A8B0187994F5581 /* Pods-sinatra-and-ios-pods-sinatra-and-iosTests.release.xcconfig */,
+				81917A8A5CB78EA2065F90F8 /* Pods-sinatra-and-ios-pods-sinatra-and-iosUITests.debug.xcconfig */,
+				EECD9730D792B22A30992C57 /* Pods-sinatra-and-ios-pods-sinatra-and-iosUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		496BCA2C215B115C005C9790 = {
+			isa = PBXGroup;
+			children = (
+				496BCA37215B115D005C9790 /* sinatra-and-ios */,
+				496BCA4C215B115E005C9790 /* sinatra-and-iosTests */,
+				496BCA57215B115E005C9790 /* sinatra-and-iosUITests */,
+				496BCA36215B115D005C9790 /* Products */,
+				2F39B3A2DA7BC361963621B7 /* Pods */,
+				798614DDEA45EEF4BAF397A9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		496BCA36215B115D005C9790 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				496BCA35215B115D005C9790 /* sinatra-and-ios.app */,
+				496BCA49215B115E005C9790 /* sinatra-and-iosTests.xctest */,
+				496BCA54215B115E005C9790 /* sinatra-and-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		496BCA37215B115D005C9790 /* sinatra-and-ios */ = {
+			isa = PBXGroup;
+			children = (
+				496BCA38215B115D005C9790 /* AppDelegate.swift */,
+				496BCA3A215B115D005C9790 /* ViewController.swift */,
+				496BCA66215B1850005C9790 /* Sushi.swift */,
+				496BCA3C215B115D005C9790 /* Main.storyboard */,
+				496BCA3F215B115E005C9790 /* Assets.xcassets */,
+				496BCA41215B115E005C9790 /* LaunchScreen.storyboard */,
+				496BCA44215B115E005C9790 /* Info.plist */,
+			);
+			path = "sinatra-and-ios";
+			sourceTree = "<group>";
+		};
+		496BCA4C215B115E005C9790 /* sinatra-and-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				496BCA4D215B115E005C9790 /* sinatra_and_iosTests.swift */,
+				496BCA4F215B115E005C9790 /* Info.plist */,
+			);
+			path = "sinatra-and-iosTests";
+			sourceTree = "<group>";
+		};
+		496BCA57215B115E005C9790 /* sinatra-and-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				496BCA58215B115E005C9790 /* sinatra_and_iosUITests.swift */,
+				496BCA5A215B115E005C9790 /* Info.plist */,
+			);
+			path = "sinatra-and-iosUITests";
+			sourceTree = "<group>";
+		};
+		798614DDEA45EEF4BAF397A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED9D8A3D908C76FE3D31125B /* Pods_sinatra_and_ios.framework */,
+				1C02E0CF0BBFD0BB87756F84 /* Pods_sinatra_and_iosTests.framework */,
+				5CDAC9BC85EBD03454131AFE /* Pods_sinatra_and_iosUITests.framework */,
+				4FD6DF6E007DBBEE713F59F4 /* Pods_sinatra_and_ios_pods_sinatra_and_ios.framework */,
+				7042D13D12E4A8C01BD7C964 /* Pods_sinatra_and_ios_pods_sinatra_and_iosTests.framework */,
+				F91F7CB718C307C799053984 /* Pods_sinatra_and_ios_pods_sinatra_and_iosUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		496BCA34215B115D005C9790 /* sinatra-and-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 496BCA5D215B115E005C9790 /* Build configuration list for PBXNativeTarget "sinatra-and-ios" */;
+			buildPhases = (
+				350DAC78242832DD242839DF /* [CP] Check Pods Manifest.lock */,
+				496BCA31215B115D005C9790 /* Sources */,
+				496BCA32215B115D005C9790 /* Frameworks */,
+				496BCA33215B115D005C9790 /* Resources */,
+				7CB68A2F79943BE81FC3E866 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sinatra-and-ios";
+			productName = "sinatra-and-ios";
+			productReference = 496BCA35215B115D005C9790 /* sinatra-and-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		496BCA48215B115E005C9790 /* sinatra-and-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 496BCA60215B115E005C9790 /* Build configuration list for PBXNativeTarget "sinatra-and-iosTests" */;
+			buildPhases = (
+				2532CBBCBA64EA21B7545884 /* [CP] Check Pods Manifest.lock */,
+				496BCA45215B115E005C9790 /* Sources */,
+				496BCA46215B115E005C9790 /* Frameworks */,
+				496BCA47215B115E005C9790 /* Resources */,
+				C288D5B96EE6474F84BB76D6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				496BCA4B215B115E005C9790 /* PBXTargetDependency */,
+			);
+			name = "sinatra-and-iosTests";
+			productName = "sinatra-and-iosTests";
+			productReference = 496BCA49215B115E005C9790 /* sinatra-and-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		496BCA53215B115E005C9790 /* sinatra-and-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 496BCA63215B115E005C9790 /* Build configuration list for PBXNativeTarget "sinatra-and-iosUITests" */;
+			buildPhases = (
+				9DE95C5E4A3C04595A10C716 /* [CP] Check Pods Manifest.lock */,
+				496BCA50215B115E005C9790 /* Sources */,
+				496BCA51215B115E005C9790 /* Frameworks */,
+				496BCA52215B115E005C9790 /* Resources */,
+				F5F402392AA1F0130123B95F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				496BCA56215B115E005C9790 /* PBXTargetDependency */,
+			);
+			name = "sinatra-and-iosUITests";
+			productName = "sinatra-and-iosUITests";
+			productReference = 496BCA54215B115E005C9790 /* sinatra-and-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		496BCA2D215B115C005C9790 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Two Ring Software";
+				TargetAttributes = {
+					496BCA34215B115D005C9790 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					496BCA48215B115E005C9790 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 496BCA34215B115D005C9790;
+					};
+					496BCA53215B115E005C9790 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 496BCA34215B115D005C9790;
+					};
+				};
+			};
+			buildConfigurationList = 496BCA30215B115C005C9790 /* Build configuration list for PBXProject "sinatra-and-ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 496BCA2C215B115C005C9790;
+			productRefGroup = 496BCA36215B115D005C9790 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				496BCA34215B115D005C9790 /* sinatra-and-ios */,
+				496BCA48215B115E005C9790 /* sinatra-and-iosTests */,
+				496BCA53215B115E005C9790 /* sinatra-and-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		496BCA33215B115D005C9790 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				496BCA43215B115E005C9790 /* LaunchScreen.storyboard in Resources */,
+				496BCA40215B115E005C9790 /* Assets.xcassets in Resources */,
+				496BCA3E215B115D005C9790 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		496BCA47215B115E005C9790 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		496BCA52215B115E005C9790 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2532CBBCBA64EA21B7545884 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sinatra-and-ios-pods-sinatra-and-iosTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		350DAC78242832DD242839DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sinatra-and-ios-pods-sinatra-and-ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CB68A2F79943BE81FC3E866 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-sinatra-and-ios-pods-sinatra-and-ios/Pods-sinatra-and-ios-pods-sinatra-and-ios-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Keys/Keys.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Keys.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sinatra-and-ios-pods-sinatra-and-ios/Pods-sinatra-and-ios-pods-sinatra-and-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DE95C5E4A3C04595A10C716 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sinatra-and-ios-pods-sinatra-and-iosUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C288D5B96EE6474F84BB76D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-sinatra-and-ios-pods-sinatra-and-iosTests/Pods-sinatra-and-ios-pods-sinatra-and-iosTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Keys/Keys.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Keys.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sinatra-and-ios-pods-sinatra-and-iosTests/Pods-sinatra-and-ios-pods-sinatra-and-iosTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5F402392AA1F0130123B95F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-sinatra-and-ios-pods-sinatra-and-iosUITests/Pods-sinatra-and-ios-pods-sinatra-and-iosUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Keys/Keys.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Keys.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sinatra-and-ios-pods-sinatra-and-iosUITests/Pods-sinatra-and-ios-pods-sinatra-and-iosUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		496BCA31215B115D005C9790 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				496BCA3B215B115D005C9790 /* ViewController.swift in Sources */,
+				496BCA39215B115D005C9790 /* AppDelegate.swift in Sources */,
+				496BCA67215B1850005C9790 /* Sushi.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		496BCA45215B115E005C9790 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				496BCA4E215B115E005C9790 /* sinatra_and_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		496BCA50215B115E005C9790 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				496BCA59215B115E005C9790 /* sinatra_and_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		496BCA4B215B115E005C9790 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 496BCA34215B115D005C9790 /* sinatra-and-ios */;
+			targetProxy = 496BCA4A215B115E005C9790 /* PBXContainerItemProxy */;
+		};
+		496BCA56215B115E005C9790 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 496BCA34215B115D005C9790 /* sinatra-and-ios */;
+			targetProxy = 496BCA55215B115E005C9790 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		496BCA3C215B115D005C9790 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				496BCA3D215B115D005C9790 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		496BCA41215B115E005C9790 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				496BCA42215B115E005C9790 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		496BCA5B215B115E005C9790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		496BCA5C215B115E005C9790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		496BCA5E215B115E005C9790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D2B388C1128D940B210DA7C /* Pods-sinatra-and-ios-pods-sinatra-and-ios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = APR23SDATL;
+				INFOPLIST_FILE = "sinatra-and-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tworingsoft.sinatra-and-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		496BCA5F215B115E005C9790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEADFCCFB01A9879C918FB58 /* Pods-sinatra-and-ios-pods-sinatra-and-ios.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = APR23SDATL;
+				INFOPLIST_FILE = "sinatra-and-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tworingsoft.sinatra-and-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		496BCA61215B115E005C9790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B50F8064ACD67B4CE830357 /* Pods-sinatra-and-ios-pods-sinatra-and-iosTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = APR23SDATL;
+				INFOPLIST_FILE = "sinatra-and-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tworingsoft.sinatra-and-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sinatra-and-ios.app/sinatra-and-ios";
+			};
+			name = Debug;
+		};
+		496BCA62215B115E005C9790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC3BB91A4A8B0187994F5581 /* Pods-sinatra-and-ios-pods-sinatra-and-iosTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = APR23SDATL;
+				INFOPLIST_FILE = "sinatra-and-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tworingsoft.sinatra-and-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sinatra-and-ios.app/sinatra-and-ios";
+			};
+			name = Release;
+		};
+		496BCA64215B115E005C9790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81917A8A5CB78EA2065F90F8 /* Pods-sinatra-and-ios-pods-sinatra-and-iosUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = APR23SDATL;
+				INFOPLIST_FILE = "sinatra-and-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tworingsoft.sinatra-and-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "sinatra-and-ios";
+			};
+			name = Debug;
+		};
+		496BCA65215B115E005C9790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EECD9730D792B22A30992C57 /* Pods-sinatra-and-ios-pods-sinatra-and-iosUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = APR23SDATL;
+				INFOPLIST_FILE = "sinatra-and-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tworingsoft.sinatra-and-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "sinatra-and-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		496BCA30215B115C005C9790 /* Build configuration list for PBXProject "sinatra-and-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				496BCA5B215B115E005C9790 /* Debug */,
+				496BCA5C215B115E005C9790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		496BCA5D215B115E005C9790 /* Build configuration list for PBXNativeTarget "sinatra-and-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				496BCA5E215B115E005C9790 /* Debug */,
+				496BCA5F215B115E005C9790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		496BCA60215B115E005C9790 /* Build configuration list for PBXNativeTarget "sinatra-and-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				496BCA61215B115E005C9790 /* Debug */,
+				496BCA62215B115E005C9790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		496BCA63215B115E005C9790 /* Build configuration list for PBXNativeTarget "sinatra-and-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				496BCA64215B115E005C9790 /* Debug */,
+				496BCA65215B115E005C9790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 496BCA2D215B115C005C9790 /* Project object */;
+}

@@ -1,0 +1,15 @@
+platform :ios, '12.0'
+
+abstract_target 'sinatra-and-ios-pods' do
+  use_frameworks!
+
+  target 'sinatra-and-ios'
+  target 'sinatra-and-iosTests'
+  target 'sinatra-and-iosUITests'
+end
+
+plugin 'cocoapods-keys', {
+    :keys => [
+    'Endpoint',
+    ]
+}
